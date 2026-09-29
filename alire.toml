@@ -1,0 +1,11 @@
+name = "uml_model"
+description = "Language-neutral UML model types"
+version = "0.1.0-dev"
+licenses = "BSD-3-Clause"
+authors = ["Joe Beazelman"]
+maintainers = ["Joe Beazelman <joe@example.com>"]
+maintainers-logins = ["Joebeazelman"]
+website = "https://github.com/Joebeazelman/uml_model"
+tags = ["uml", "model", "code-generation"]
+
+[[depends-on]]
