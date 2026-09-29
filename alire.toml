@@ -9,3 +9,11 @@ website = "https://github.com/Joebeazelman/uml_model"
 tags = ["uml", "model", "code-generation"]
 
 [[depends-on]]
+
+
+[[depends-on]]
+aunit = "*"
+
+[[actions]]
+type = "test"
+command = ["sh", "-c", "alr exec -- gprbuild -P tests/uml_model_tests.gpr -p && ./tests/obj/tests"]
